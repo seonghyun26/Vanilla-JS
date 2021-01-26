@@ -24,5 +24,4 @@ function init() {
     loadName();
 }
 
-
 init();
