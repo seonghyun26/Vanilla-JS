@@ -10,7 +10,7 @@ function handleClick() {
 
 
 function init(){
-    title.addEventListener("click", handleClick);    
+    title.addEventListener("click", handleClick());    
 }
 
 init();
