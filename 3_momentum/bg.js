@@ -13,7 +13,6 @@ function paintImage(imgNumber){
 
 function getRandom(){
     const number = Math.floor(Math.random()*IMG_NUMBER);
-    console.log(number);
     return number;
 };
 
