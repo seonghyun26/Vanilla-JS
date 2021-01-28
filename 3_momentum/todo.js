@@ -5,7 +5,7 @@ const toDoForm = document.querySelector(".js-todoForm"),
 const TODOS_LS = 'toDos';
 
 let toDos = [];
-
+let idNumbers = toDos.length;
 
 function deleteToDo(event){
     const btn = event.target;
@@ -26,7 +26,8 @@ function paintToDo(text){
     const li = document.createElement("li");
     const del_btn = document.createElement("button");
     const span = document.createElement("span");
-    const newID = toDos.length + 1;
+    idNumbers += 1;
+    const newID = idNumbers;
     del_btn.innerText = "❌";
     del_btn.addEventListener("click", deleteToDo);
     span.innerText = text;
