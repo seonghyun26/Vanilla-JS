@@ -1,10 +1,41 @@
 body {
     background: #3C3E50;
+    text-align: center;
 }
 
 h1 {
-    color: #34495e;
+    color: white;
     transition: color 0.5s ease-in-out;
+    text-align: center;
+    font-size: 100pt;
+}
+
+h4 {
+    color: white;
+    font-size: 30pt;
+}
+
+input {
+    background-color: transparent;
+    width: 360px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+input::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 20pt;
+    
 }
 
 .form, 
@@ -16,7 +47,6 @@ h1 {
     display: block;
 }
 
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -24,6 +54,21 @@ h1 {
     to {
         opacity: 1;
     }
+}
+
+.container{
+    text-align: center;
+}
+
+ul{
+    list-style:none;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+li{
+    
+    color: white;
 }
 
 .bgImage{
@@ -34,4 +79,11 @@ h1 {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear
+}
+
+.bottom{ 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
 }
