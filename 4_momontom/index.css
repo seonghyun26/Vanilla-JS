@@ -1,0 +1,89 @@
+body {
+    background: #3C3E50;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    transition: color 0.5s ease-in-out;
+    text-align: center;
+    font-size: 100pt;
+}
+
+h4 {
+    color: white;
+    font-size: 30pt;
+}
+
+input {
+    background-color: transparent;
+    width: 360px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+input::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    font-size: 20pt;
+    
+}
+
+.form, 
+.greetings {
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container{
+    text-align: center;
+}
+
+ul{
+    list-style:none;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+li{
+    
+    color: white;
+}
+
+.bgImage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 0.5s linear
+}
+
+.bottom{ 
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
